@@ -12,9 +12,7 @@ contract ERC5192SBT is ERC5192 {
   constructor(string memory _name,string memory _symbol) ERC5192(_name,_symbol){
 
   }
-  function test1() pure public returns(bytes4){
-    return (bytes4(keccak256('supportsInterface(bytes4)')));
-  }
+ 
    function mint(bool lock) public{
     
     _tokenIds.increment();
