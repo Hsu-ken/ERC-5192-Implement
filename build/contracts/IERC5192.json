@@ -61,15 +61,15 @@
     "absolutePath": "project:/contracts/IERC5192.sol",
     "exportedSymbols": {
       "IERC5192": [
-        105
+        2880
       ]
     },
-    "id": 106,
+    "id": 2881,
     "license": "CC0-1.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 86,
+        "id": 2861,
         "literals": [
           "solidity",
           "^",
@@ -77,7 +77,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "37:23:3"
+        "src": "37:23:13"
       },
       {
         "abstract": false,
@@ -86,41 +86,41 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 105,
+        "id": 2880,
         "linearizedBaseContracts": [
-          105
+          2880
         ],
         "name": "IERC5192",
-        "nameLocation": "74:8:3",
+        "nameLocation": "74:8:13",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
             "documentation": {
-              "id": 87,
+              "id": 2862,
               "nodeType": "StructuredDocumentation",
-              "src": "88:204:3",
+              "src": "88:204:13",
               "text": "@notice Emitted when the locking status is changed to locked.\n @dev If a token is minted and the status is locked, this event should be emitted.\n @param tokenId The identifier for a token."
             },
             "eventSelector": "032bc66be43dbccb7487781d168eb7bda224628a3b2c3388bdf69b532a3a1611",
-            "id": 91,
+            "id": 2866,
             "name": "Locked",
-            "nameLocation": "302:6:3",
+            "nameLocation": "302:6:13",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 90,
+              "id": 2865,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 89,
+                  "id": 2864,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "tokenId",
-                  "nameLocation": "317:7:3",
+                  "nameLocation": "317:7:13",
                   "nodeType": "VariableDeclaration",
-                  "scope": 91,
-                  "src": "309:15:3",
+                  "scope": 2866,
+                  "src": "309:15:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -128,10 +128,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 88,
+                    "id": 2863,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "309:7:3",
+                    "src": "309:7:13",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -140,37 +140,37 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "308:17:3"
+              "src": "308:17:13"
             },
-            "src": "296:30:3"
+            "src": "296:30:13"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 92,
+              "id": 2867,
               "nodeType": "StructuredDocumentation",
-              "src": "332:208:3",
+              "src": "332:208:13",
               "text": "@notice Emitted when the locking status is changed to unlocked.\n @dev If a token is minted and the status is unlocked, this event should be emitted.\n @param tokenId The identifier for a token."
             },
             "eventSelector": "f27b6ce5b2f5e68ddb2fd95a8a909d4ecf1daaac270935fff052feacb24f1842",
-            "id": 96,
+            "id": 2871,
             "name": "Unlocked",
-            "nameLocation": "550:8:3",
+            "nameLocation": "550:8:13",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 95,
+              "id": 2870,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 94,
+                  "id": 2869,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "tokenId",
-                  "nameLocation": "567:7:3",
+                  "nameLocation": "567:7:13",
                   "nodeType": "VariableDeclaration",
-                  "scope": 96,
-                  "src": "559:15:3",
+                  "scope": 2871,
+                  "src": "559:15:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -178,10 +178,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 93,
+                    "id": 2868,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "559:7:3",
+                    "src": "559:7:13",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -190,38 +190,38 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "558:17:3"
+              "src": "558:17:13"
             },
-            "src": "544:32:3"
+            "src": "544:32:13"
           },
           {
             "documentation": {
-              "id": 97,
+              "id": 2872,
               "nodeType": "StructuredDocumentation",
-              "src": "582:215:3",
+              "src": "582:215:13",
               "text": "@notice Returns the locking status of an Soulbound Token\n @dev SBTs assigned to zero address are considered invalid, and queries\n about them do throw.\n @param tokenId The identifier for an SBT."
             },
             "functionSelector": "b45a3c0e",
-            "id": 104,
+            "id": 2879,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "locked",
-            "nameLocation": "810:6:3",
+            "nameLocation": "810:6:13",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 100,
+              "id": 2875,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 99,
+                  "id": 2874,
                   "mutability": "mutable",
                   "name": "tokenId",
-                  "nameLocation": "825:7:3",
+                  "nameLocation": "825:7:13",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
-                  "src": "817:15:3",
+                  "scope": 2879,
+                  "src": "817:15:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -229,10 +229,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 98,
+                    "id": 2873,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "817:7:3",
+                    "src": "817:7:13",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -241,21 +241,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "816:17:3"
+              "src": "816:17:13"
             },
             "returnParameters": {
-              "id": 103,
+              "id": 2878,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 102,
+                  "id": 2877,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
-                  "src": "857:4:3",
+                  "scope": 2879,
+                  "src": "857:4:13",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -263,10 +263,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 101,
+                    "id": 2876,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "857:4:3",
+                    "src": "857:4:13",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -275,21 +275,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "856:6:3"
+              "src": "856:6:13"
             },
-            "scope": 105,
-            "src": "801:62:3",
+            "scope": 2880,
+            "src": "801:62:13",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 106,
-        "src": "64:802:3",
+        "scope": 2881,
+        "src": "64:802:13",
         "usedErrors": []
       }
     ],
-    "src": "37:829:3"
+    "src": "37:829:13"
   },
   "compiler": {
     "name": "solc",
@@ -297,7 +297,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-02-27T13:08:59.983Z",
+  "updatedAt": "2023-02-28T15:11:09.616Z",
   "devdoc": {
     "events": {
       "Locked(uint256)": {
